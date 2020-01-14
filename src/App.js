@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import mainimage from './images/mainimage.png';
 
 function App() {
   return (
@@ -19,8 +20,9 @@ function App() {
         </div>
       </div>
       <div className="central-content">
-        <div className="image">
-          <img src="/images/undraw_online_friends_x73e.png" alt="central"/>
+        <div className="home-image">
+           {/*credit to UnDraw illustrations by Katerina Limpitsuoni*/}
+          <img src={mainimage} alt="central illustration"/>
         </div>
         <div className="new-blogs">
           <div className="blog-entry"></div>
