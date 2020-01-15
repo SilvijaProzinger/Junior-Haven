@@ -4,6 +4,7 @@ import mainimage from './images/mainimage.png';
 import blogone from './images/blogone.jpg';
 import blogtwo from './images/blogtwo.jpg';
 import blogthree from './images/blogthree.jpg';
+import chaticon from './images/chat.png';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
         <div className="home-image">
            {/*credit to UnDraw illustrations by Katerina Limpitsuoni*/}
           <img src={mainimage} alt="central illustration"/>
+        </div>
+        <div className="chat-icon">
+          <img src={chaticon} alt="chat icon"/>
         </div>
         <div className="new-blogs">
           <div className="blog-entry">

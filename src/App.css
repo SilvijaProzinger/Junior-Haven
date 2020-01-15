@@ -55,6 +55,7 @@ html {
 .home-image {
   position: absolute;
   min-width: 100%;
+  z-index: -2;
 }
 
 .home-image img {
@@ -79,6 +80,7 @@ html {
   transition: 0.3s;
   background-color: white;
   padding: 2%;
+  z-index: -1;
 }
 
 .blog-entry:hover {
@@ -93,6 +95,19 @@ html {
 
 .blog-entry h3 {
   padding: 2%;
+}
+
+.chat-icon {
+  position: relative;
+  float: right;
+  top: 30%;
+  right: 3%;
+}
+
+.chat-icon img {
+  width: 80px;
+  height: 80px;
+  z-index: 9;
 }
 
 .footer {
