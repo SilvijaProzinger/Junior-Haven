@@ -2,6 +2,10 @@ html {
   overflow-x: hidden;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -20,20 +24,37 @@ html {
   align-items: center;
 }
 
+.logo h2 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.7rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #26a8ff;
+}
+
 .menu {
   display: flex;
   flex-direction: row;
-  margin-left: 15%;
+  margin-left: 17%;
 }
 
 .button {
   padding: 2%;
   height: 35px;
   width: 80px;
+  border: none;
 }
 
-.menu h3 {
+.menu a{
   padding-right: 3%;
+  font-size: 1.2rem;
+  margin-right: 2%;
+  color: #26a8ff;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  cursor: pointer;
 }
 
 .signup-login button {
@@ -45,11 +66,21 @@ html {
   flex-direction: row;
 }
 
+.signup-button {
+  background-color: #26a8ff;
+  color: white;
+}
+
+.login-button {
+  color: white;
+  background-color: #ffaf26;
+}
+
 .central-content {
   background-color: #ffaf26;
   position: fixed;
   width: 100%;
-  height: 100%;
+  height: 65%;
 }
 
 .home-image {
@@ -111,7 +142,7 @@ html {
 }
 
 .footer {
-  background-color: white;
+  background-color: #ffaf26;
   width: 100%;
   height: 70px;
   position: fixed;
@@ -120,4 +151,35 @@ html {
   flex-direction: row;
   align-items: center;
   bottom: 0;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-text {
+  margin: 3%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.title {
+  margin-top: 10%;
+  font-size: 30px;
+}
+
+.about-image {
+  width: 600px;
+  margin: auto;
+}
+
+.icons-and-contact {
+  display: flex;
+  flex-direction: row;
+}
+
+.icons-and-contact img {
+  width: 50px;
+  margin: 0 1% 1% 1%;
 }
