@@ -2,11 +2,12 @@ import React from 'react';
 import about from '../images/about.png';
 import email from '../images/email.png';
 import facebook from '../images/facebook.png';
+import chaticon from '../images/chat.png';
 
 function About(){
 	return (
-		<div>
-		<h3 className="title">ABOUT</h3>
+	<div>
+		<h2 className="title">ABOUT</h2>
 		<div className="about">
 			<h4 className="about-text">
 			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac mauris ac mi ullamcorper scelerisque. 
@@ -26,6 +27,9 @@ function About(){
 			</h4>
 			{/*credit to UnDraw illustrations by Katerina Limpitsuoni*/}
 			<img src={about} alt="person with laptop illustration" className="about-image"/>
+			<div className="chat-icon">
+      			<img src={chaticon} alt="chat icon"/>
+   			</div>
 		</div>
 		<div className="icons-and-contact">
 		<img src={facebook} alt="facebook icon" className="contact-icons"/>
@@ -33,7 +37,13 @@ function About(){
 		<img src={email} alt="email icon" className="contact-icons"/>
 		<h4>info@juniorhaven.com</h4>
 		</div>
-		</div>
+		<div className="footer-other">
+   	 	<h4>Copyright by Junior.Haven 2020</h4>
+    	<h4>facebook.com/Junior.Haven</h4>
+    	<h4>info@juniorhaven.com</h4>
+    	</div>
+  	</div>
+
 	)
 }
 

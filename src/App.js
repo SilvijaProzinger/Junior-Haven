@@ -5,9 +5,9 @@ import Navigation from './components/Navigation.js';
 import About from './components/About.js';
 import Articles from './components/Articles.js';
 import mainimage from './images/mainimage.png';
-import blogone from './images/blogone.jpg';
-import blogtwo from './images/blogtwo.jpg';
-import blogthree from './images/blogthree.jpg';
+import articleone from './images/articleone.jpg';
+import articletwo from './images/articletwo.jpg';
+import articlethree from './images/articlethree.jpg';
 import chaticon from './images/chat.png';
 
 function App() {
@@ -36,21 +36,21 @@ const Home = () => {
     <div className="chat-icon">
       <img src={chaticon} alt="chat icon"/>
     </div>
-    <div className="new-blogs">
-      <div className="blog-entry">
+    <div className="new-articles">
+      <div className="article-entry">
         <h3>Why React is the best thing a new developer can learn?</h3>
         {/*credit to Kevin Ku on Pexels*/}
-        <img src={blogone} alt="coding"/> 
+        <img src={articleone} alt="coding"/> 
       </div>
-      <div className="blog-entry">  
+      <div className="article-entry">  
         <h3>Angular Basics - Part II</h3>
         {/*credit to Christina Morillo on Pexels*/}
-        <img src={blogtwo} alt="coding"/>
+        <img src={articletwo} alt="coding"/>
       </div>
-      <div className="blog-entry">
+      <div className="article-entry">
         <h3>10 SASS tips for a perfect portfolio</h3>
         {/*credit to Tranmautritam on Pexels*/}
-        <img src={blogthree} alt="coding"/>
+        <img src={articlethree} alt="coding"/>
       </div>
     </div>
   </div>
